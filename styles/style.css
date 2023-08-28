@@ -56,11 +56,14 @@
   align-items: center;
 }
 
+.contacts-item {
+  white-space: nowrap;
+}
+
 .contacts-item-link {
   text-decoration: none;
   border-bottom: 1px solid #000;
 }
-
 
 .lots {
   margin: 180px 50px 50px 0;
