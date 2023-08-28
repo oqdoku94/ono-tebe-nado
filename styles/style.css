@@ -1,1 +1,67 @@
-/* место для вашего кода */
+.header {
+  margin: 92px 50px;
+  display: grid;
+  grid-template: auto / 2fr auto 2fr;
+}
+
+.menu-list {
+  text-transform: lowercase;
+  display: grid;
+  grid-template-columns: auto auto auto 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.menu-list__item {
+  list-style: circle;
+  border-bottom: 1px solid #000;
+}
+
+.menu-list__active-item {
+  list-style: none;
+  border-bottom: none;
+}
+
+.menu-list__item__link {
+  display: block;
+  margin-bottom: 2px;
+  text-decoration: none;
+}
+
+.logo {
+  width: 148px;
+  height: 105px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+}
+
+.logo-image__link {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.contacts {
+  display: grid;
+  grid-template-columns: auto .406fr;
+  justify-items: end;
+  line-height: 24.3px;
+  align-items: center;
+}
+
+.contacts-item-link {
+  text-decoration: none;
+  border-bottom: 1px solid #000;
+}
+
+
+.lots {
+  margin: 180px 50px 50px 0;
+}
+
+.about {
+  margin: 176px 39px 61px 185px;
+}
