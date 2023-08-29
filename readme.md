@@ -1,1 +1,0 @@
-https://github.com/oqdoku94/ono-tebe-nado.git
