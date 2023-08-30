@@ -62,6 +62,7 @@
   line-height: 24.3px;
   font-style: normal;
   font-weight: 400;
+  max-width: 240px;
 }
 
 .header_address {
@@ -152,7 +153,8 @@
 
 .cover__description-text {
   color: #fff;
-  width: 665px;
+  max-width: 665px;
+  width: 100%;
   font-size: 22px;
   text-transform: uppercase;
   font-weight: 400;
@@ -197,6 +199,10 @@
   flex-flow: row wrap;
   justify-items: center;
   gap: 25px;
+}
+
+.lots__card-list-item {
+  min-height: 450px;
 }
 
 .lots__card-list-item,
